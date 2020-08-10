@@ -3,16 +3,25 @@
   padding: 0;
   margin: 0;
 }
-*/ .navbar-nav > li {
+.navbar-nav > li {
   padding-left: 60px;
   padding-right: 60px;
+}
+
+#navbarNav h1 {
+  margin-right: 300px;
+}
+
+#navbarNav li {
+  text-align: right;
+  margin-right: 40px;
 }
 
 .container-fluid {
   background-image: url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg);
   background-size: cover;
   width: 1598px;
-  height: 888px;
+  height: 100%;
 }
 
 .about-me {
@@ -20,6 +29,7 @@
   height: 1060px;
   margin-left: 200px;
   margin-right: 100px;
+  margin-top: 100px;
 }
 
 .about-me h1 {
@@ -27,6 +37,8 @@
   margin-bottom: 30px;
   border-bottom: #287bff solid 1px;
   margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 #bio-image {
   width: 300px;
@@ -38,7 +50,9 @@
 }
 
 #p-0 {
-  padding-top: 10px;
+  padding-top: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
 }
 
 #p-1 {
@@ -46,4 +60,58 @@
   padding-left: 0;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+footer {
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  text-align:right ;
+}
+
+.portfolio {
+  width: 1220px;
+  height: 1060px;
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 100px;
+  padding-left: 40px ;
+  
+}
+
+.portfolio h1 {
+  color: #287bff;
+  margin-bottom: 30px;
+  border-bottom: #287bff solid 1px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+
+
+#portfolio img {
+    padding: 20px;
+    margin-right: 30px;
+
+}
+
+
+
+
+
+.contact {
+  width: 1220px;
+  height: 1060px;
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+.contact h1 {
+    color: #287bff;
+    margin-bottom: 30px;
+    border-bottom: #287bff solid 1px;
+    margin-left: 20px;
+  } 
 }
