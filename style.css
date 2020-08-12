@@ -33,15 +33,11 @@ body {
 .about-me p {
   padding-top: 15px;
 }
-#bio-image {
-  max-width: 300px;
-  height: auto;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-}
 
+.about-me img {
+  padding: 20px;
+  min-width: 300px;
+}
 .portfolio {
   width: 1220px;
   height: 1060px;
@@ -59,7 +55,8 @@ body {
   margin-bottom: 20px;
 }
 .portfolio img {
-  padding: 20px;
+  padding: 10px;
+  max-width: 300px;
 }
 
 .contact {
@@ -93,22 +90,34 @@ body {
 
 #footer-li {
   text-align: left;
+  margin-right: 10px;
 }
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-
+@media screen and (max-width:400px) {
+  {
+    width: 100%;
+    margin-right: 10px;
+  }
+}
 /* Small devices (tablets, 768px and up) */
 @media screen and (max-width: 768px) {
-  .column {
-  }
+ body{ width: 50%;
+  margin-right: 10px;
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media screen and (max-width: 320px) {
-  ...;
+@media screen and (max-width:992px) {
+ body {
+   width: 100%;
+   margin-right: 10px;
+ }
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media screen and (max-width: 168px) {
-  ...;
+@media screen and (max-width: 1200px) {
+ body {
+  width: 100%;
+  margin-right: 10px;
+ }
 }
