@@ -4,24 +4,11 @@
   margin: 0;
 }
 
-.container-fluid {
+body {
   background-image: url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg);
   background-size: cover;
   width: 100%;
-}
-
-.navbar-nav > li {
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
-#navbarNav h1 {
-  margin-right: 300px;
-}
-
-#navbarNav li {
-  text-align: right;
-  margin-right: 40px;
+  height: 100%;
 }
 
 .about-me {
@@ -29,7 +16,7 @@
   height: 1060px;
   margin-left: 200px;
   margin-right: 100px;
-  margin-top: 100px;
+  margin-top: 150px;
   padding-bottom: 20px;
 }
 
@@ -47,8 +34,8 @@
   padding-top: 15px;
 }
 #bio-image {
-  width: 300px;
-  height: 300px;
+  max-width: 300px;
+  height: auto;
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -58,45 +45,41 @@
 .portfolio {
   width: 1220px;
   height: 1060px;
+  margin-top: 150px;
   margin-left: 200px;
   margin-right: 100px;
-  margin-top: 100px;
-}
-
-.portfolio h1 {
-  color: #287bff;
-  border-bottom: #287bff solid 1px;
-  margin-left: 20px;
   padding-top: 20px;
-  margin-bottom: 0;
 }
-
-#portfolio img {
+.portfolio h1 {
+  border-bottom: solid #287bff 1px;
+  padding-right: 10px;
+  padding-top: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.portfolio img {
   padding: 20px;
-  margin-right: 30px;
 }
 
-#contact-me {
+.contact {
+  color: black;
   width: 1220px;
   height: 1060px;
+  margin-top: 150px;
   margin-left: 200px;
   margin-right: 100px;
-  margin-top: 100px;
+  padding-top: 20px;
 }
 
-#contact-me h1 {
+.contact h1 {
   color: #287bff;
-  padding: 20px;
+  padding: 10px;
   border-bottom: #287bff solid 1px;
-
   background-color: #ffffff;
 }
 
-.formcell {
-  padding: 20px;
-}
-
-.contact-form {
+.contact {
   color: black;
   margin-top: 100px;
   padding: 20px;
@@ -105,7 +88,7 @@
 }
 
 #send-button {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #footer-li {
