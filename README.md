@@ -1,3 +1,3 @@
 # BootStrapHW
 
-/Users/vincescacchitti/Desktop/BootStrapHW/Screen Shot 2020-08-13 at 10.18.22 AM.png
+In this assignment we created a responsive portfolio using HTML, CSS, and specifically Bootstrap.  This portfolio is to be responsive to all types of media screeens.
