@@ -79,6 +79,7 @@ body {
   margin-left: 200px;
   margin-right: 100px;
   padding-top: 20px;
+  border: #287bff;
 }
 
 .contact h1 {
@@ -163,7 +164,13 @@ body {
     max-width: 75px;
     max-height: 75px;
   }
+
+  .contact {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
+
 @media screen and (max-width: < 768px) {
   body {
     width: 100%;
@@ -177,12 +184,21 @@ body {
     max-width: 100px;
     max-height: 100px;
   }
+
+  .contact {
+    margin-left: 50px;
+    margin-right: 100px;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and (max-width: < 992px) {
   body {
     width: 100%;
+  }
+  .contact {
+    margin-left: 200px;
+    margin-right: 200px;
   }
 }
 
