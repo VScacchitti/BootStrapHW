@@ -29,7 +29,6 @@ body {
 }
 
 .about-me p {
-
 }
 
 .about-me img {
@@ -37,12 +36,14 @@ body {
   min-width: 150px;
 }
 .portfolio {
-
-  height: 1060px;
-  margin-top: 150px;
+  overflow: scroll;
+  max-height: 1060px;
+  margin-top: 50px;
   margin-left: 200px;
   margin-right: 100px;
   padding-top: 20px;
+  margin-bottom: 20px;
+  width: 75%;
 }
 .portfolio h1 {
   border-bottom: solid #287bff 1px;
@@ -53,9 +54,22 @@ body {
   margin-bottom: 20px;
   padding-bottom: 10px;
 }
-.portfolio img {
+.port-img {
+  padding: 20px;
+  margin: 15px;
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.port-li {
+  list-style-type: none;
+  width: 75%;
   padding: 10px;
-  max-width: 300px;
+}
+
+.bold {
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 .contact {
@@ -69,6 +83,7 @@ body {
 
 .contact h1 {
   color: #287bff;
+  text-align: center;
   padding: 10px;
   border-bottom: #287bff solid 1px;
   background-color: #ffffff;
@@ -78,9 +93,19 @@ body {
   color: black;
   margin-top: 100px;
   padding: 20px;
-  height: 1060px;
+  height: 800px;
+  background-color: #ffffff;
+  width: 65%;
+  box-shadow: #287bff;
 }
 
+.icon {
+  color: #287bff;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
+}
 #send-button {
   margin-bottom: 10px;
 }
@@ -91,8 +116,8 @@ body {
 }
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-@media screen and (max-width:  400px) {
- body {
+@media screen and (max-width: 400px) {
+  body {
     width: 100%;
     margin-right: 10px;
     margin-top: 10px;
@@ -101,7 +126,7 @@ body {
   .portfolio {
     margin-right: 20px;
     margin-left: 20px;
-    min-width: 250px ;
+    min-width: 250px;
     max-width: 250px;
     margin-top: 30px;
   }
@@ -120,27 +145,50 @@ body {
   .contact p {
     padding: 15px;
   }
-
-
+  .icon {
+    margin-left: 10px;
+  }
 }
 /* Small devices (tablets, 768px and up) */
+@media screen and (max-width: < 400px) {
+  body {
+    width: 100%;
+  }
+
+  .icon {
+    margin-left: 200px;
+  }
+
+  .port-img {
+    max-width: 75px;
+    max-height: 75px;
+  }
+}
 @media screen and (max-width: < 768px) {
- body{ width: 100%;
- 
+  body {
+    width: 100%;
+  }
+
+  .icon {
+    margin-left: 200px;
+  }
+
+  .port-img {
+    max-width: 100px;
+    max-height: 100px;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and (max-width: < 992px) {
- body {
-   width: 100%;
-  
- }
+  body {
+    width: 100%;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (max-width: 1200px) {
- body {
-  width: 100%;
- 
- }
+  body {
+    width: 100%;
+  }
 }
