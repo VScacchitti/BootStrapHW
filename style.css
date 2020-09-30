@@ -8,6 +8,10 @@ body {
   background-image: url(https://th.bing.com/th/id/OIP.cqGEqnhGytDVqCz1XcP0BgHaEO?pid=Api&rs=1);
   background-size: cover;
 }
+
+.navbar-brand {
+  font-size: 28px;
+}
 /* ABout Me Section*/
 .about-me {
   width: 100%;
