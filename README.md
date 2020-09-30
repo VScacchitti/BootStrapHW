@@ -4,16 +4,15 @@ This is a collection of my biogramphy, my work, and my contact information.
 
 About Me
 
-<img width="1636" alt="Screen Shot 2020-09-29 at 4 20 47 PM" src="https://user-images.githubusercontent.com/67161794/94611570-ec0f8e80-026f-11eb-83b3-d7802708f6fa.png">
+<img width="1541" alt="Screen Shot 2020-09-30 at 4 35 51 PM" src="https://user-images.githubusercontent.com/67161794/94737110-4aee0a00-033b-11eb-8223-f0c935fe691a.png">
 
 Portfolio Page
 
-<img width="1639" alt="Screen Shot 2020-09-29 at 4 21 23 PM" src="https://user-images.githubusercontent.com/67161794/94611780-3db81900-0270-11eb-90d7-8aab53f364be.png">
+<img width="1542" alt="Screen Shot 2020-09-30 at 4 36 14 PM" src="https://user-images.githubusercontent.com/67161794/94737160-60fbca80-033b-11eb-9304-85c4a88a4904.png">
 
 Contact Page
 
-<img width="1655" alt="Screen Shot 2020-09-29 at 4 16 19 PM" src="https://user-images.githubusercontent.com/67161794/94611855-50cae900-0270-11eb-91ea-1606bdec799e.png">
-
+<img width="1544" alt="Screen Shot 2020-09-30 at 4 36 38 PM" src="https://user-images.githubusercontent.com/67161794/94737200-6f49e680-033b-11eb-9310-cb3a8929a8c5.png">
 Deployed Portfolio: https://vscacchitti.github.io/Portfolio/
 
 GitHub Repository: https://github.com/VScacchitti/Portfolio
