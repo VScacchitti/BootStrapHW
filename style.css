@@ -40,6 +40,20 @@ body {
   padding: 10px;
 }
 
+.bold {
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px;
+}
+
+#skill-list {
+  padding: 5px;
+  margin: 5px;
+}
+
+#skill-head {
+  text-align: center;
+}
 /*Portfolio Section*/
 .portfolio {
   overflow: scroll;
