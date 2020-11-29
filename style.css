@@ -34,6 +34,7 @@ body {
 .about-me p {
   font-size: 18px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 40px;
 }
 
 #bio-image {
@@ -45,6 +46,9 @@ body {
   padding: 5px;
   margin: 10px;
 }
+ul {
+  list-style: none;
+}
 
 #skill-list {
   padding: 5px;
@@ -53,6 +57,11 @@ body {
 
 #skill-head {
   text-align: center;
+  margin-bottom: 10px;
+}
+
+#resume-btn {
+  margin-top: 15px;
 }
 /*Portfolio Section*/
 .portfolio {
