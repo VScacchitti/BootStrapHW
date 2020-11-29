@@ -77,6 +77,13 @@ body {
   font-size: 20px;
 }
 
+h2 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
+  margin: 10px;
+  color: #287bff;
+}
 /*Contact Section*/
 
 .contact h1 {
