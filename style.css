@@ -39,6 +39,8 @@ body {
 
 #bio-image {
   padding: 10px;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .bold {
@@ -62,6 +64,9 @@ ul {
 
 #resume-btn {
   margin-top: 15px;
+}
+.skills {
+  margin-bottom: 50px;
 }
 /*Portfolio Section*/
 .portfolio {
@@ -133,8 +138,12 @@ h2 {
   text-align: center;
 }
 
+.contact-h3 {
+  text-align: center;
+}
+
 .icon {
   color: #287bff;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
